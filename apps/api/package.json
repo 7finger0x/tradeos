@@ -1,0 +1,9 @@
+{
+  "name": "@tradeos/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "API service — Phase 2+",
+  "scripts": {
+    "typecheck": "echo \"API scaffold — implement in Phase 2\""
+  }
+}

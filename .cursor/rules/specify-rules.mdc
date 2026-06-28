@@ -1,0 +1,40 @@
+---
+alwaysApply: true
+---
+
+<!-- SPECKIT START -->
+# TradeOS / Hermes — Agent Context
+
+## Project
+
+Unified **AI Trading Operating System** (Track A) + **Hermes Protocol** (Track B).
+
+## Stack
+
+TypeScript, Next.js 15, React 19, Tailwind, Supabase Postgres (RLS), modular monorepo.
+
+## Structure
+
+- `apps/web` — dashboard shell
+- `packages/core` — Zod schemas, RBAC helpers, pure functions
+- `supabase/migrations` — schema + RLS
+- `specs/011-screenshot-replay/` — current phase spec/plan/tasks
+- `.specify/memory/constitution.md` — governance (read before coding)
+
+## Non-Negotiables
+
+1. Deterministic risk outranks AI; no live execution; broker read-only
+2. `tenant_id` + RLS on all tenant data; real cross-tenant tests
+3. Structured AI outputs with confidence + limitations
+4. Build only the requested phase
+
+## MVP Order
+
+Journal → Risk → Briefing → Coach → Hermes backend/RBAC/providers/operator dashboard
+
+## Current Phase
+
+**Phase 11 Screenshot + Replay** — secure upload, chart AI review, trade replay sessions
+
+See `specs/011-screenshot-replay/plan.md` and `quickstart.md`.
+<!-- SPECKIT END -->

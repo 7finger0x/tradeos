@@ -1,0 +1,9 @@
+{
+  "name": "@tradeos/ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI agent schemas and orchestration — Phase 5+",
+  "scripts": {
+    "typecheck": "echo \"AI package scaffold — implement in Phase 5\""
+  }
+}

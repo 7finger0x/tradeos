@@ -1,0 +1,22 @@
+{
+  "name": "ai-trading-operating-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unified AI Trading OS and Hermes Protocol platform",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "db:reset": "npx supabase db reset",
+    "db:test": "npx supabase test db"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

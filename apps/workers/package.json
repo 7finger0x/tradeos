@@ -1,0 +1,9 @@
+{
+  "name": "@tradeos/workers",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Background workers — Phase 2+",
+  "scripts": {
+    "typecheck": "echo \"Workers scaffold — implement in Phase 2\""
+  }
+}
