@@ -10,9 +10,9 @@
     "typecheck": "tsc --noEmit"
   },
     "dependencies": {
-    "@tradeos/core": "*",
-    "@tradeos/integrations": "*",
-    "@tradeos/ui": "*",
+    "@tradeos/core": "workspace:*",
+    "@tradeos/integrations": "workspace:*",
+    "@tradeos/ui": "workspace:*",
     "@supabase/ssr": "^0.6.1",
     "@supabase/supabase-js": "^2.49.8",
     "next": "^15.3.3",
